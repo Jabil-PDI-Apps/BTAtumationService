@@ -7,8 +7,8 @@ namespace BTAutomation.Service
     public class FileWatcherService : BackgroundService
     {
         private readonly ILogger<FileWatcherService> _logger;
-        //private readonly string _path = @"C:\DGS\LOGS";
-        private readonly string _path = @"C:\Users\4134331\OneDrive - Jabil\Documents\AutomaçaoDownloader";
+        private readonly string _path = @"C:\DGS\LOGS";
+        //private readonly string _path = @"C:\Users\4134331\OneDrive - Jabil\Documents\AutomaçaoDownloader";
         private readonly Dictionary<string, DateTime> _lastProcessed = new();
         private FileSystemWatcher? _watcher;
         CLPService _clpService;

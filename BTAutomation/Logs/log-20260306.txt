@@ -829,3 +829,14 @@ Exception Code: 1 - The function code received in the query is not an allowable 
 2026-03-06 10:52:04.773 -04:00 [INF] Alteração detectada no arquivo: SM-A075M_RF CAL_BT_RDG_TOPT01_20260301_01.csv
 2026-03-06 10:52:05.325 -04:00 [INF] Valor extraído do RESULT: PASS
 2026-03-06 10:52:05.362 -04:00 [INF] Valor 1 escrito com sucesso no endereço 0 do CLP.
+2026-03-06 11:19:29.797 -04:00 [INF] Iniciando o serviço de automação...
+2026-03-06 11:19:30.215 -04:00 [DBG] Hosting starting
+2026-03-06 11:19:30.250 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-06 11:19:30.263 -04:00 [INF] Hosting environment: Production
+2026-03-06 11:19:30.263 -04:00 [INF] Iniciando monitoramento em tempo real em: C:\DGS\LOGS
+2026-03-06 11:19:30.268 -04:00 [INF] Content root path: C:\Users\4134331\OneDrive - Jabil\Documents\AutomaçaoDownloader\BTBackend\BTAutomation\BTAutomation
+2026-03-06 11:19:30.271 -04:00 [ERR] Diretório não encontrado: C:\DGS\LOGS
+2026-03-06 11:19:30.274 -04:00 [DBG] Hosting started
+2026-03-06 11:19:30.548 -04:00 [INF] Tentando conectar ao CLP Master em 192.168.100.20:502...
+2026-03-06 11:19:35.580 -04:00 [WRN] Não foi possível conectar. Verifique se o CLP está online.
+2026-03-06 11:19:35.597 -04:00 [INF] Aguardando 5 segundos para tentar reconectar...

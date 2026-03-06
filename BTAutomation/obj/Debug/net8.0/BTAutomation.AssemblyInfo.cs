@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BTAutomation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70314f97efbea0dd4c70f7c9cd1af1a8ac7940b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("BTAutomation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BTAutomation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

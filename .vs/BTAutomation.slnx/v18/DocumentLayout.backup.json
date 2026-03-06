@@ -1,0 +1,110 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\4134331\\OneDrive - Jabil\\Documents\\Automa\u00E7aoDownloader\\BTBackend\\BTAutomation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134331\\onedrive - jabil\\documents\\automa\u00E7aodownloader\\btbackend\\btautomation\\btautomation\\service\\filewatcherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|solutionrelative:btautomation\\service\\filewatcherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134331\\onedrive - jabil\\documents\\automa\u00E7aodownloader\\btbackend\\btautomation\\btautomation\\service\\clpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|solutionrelative:btautomation\\service\\clpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileWatcherService.cs",
+              "DocumentMoniker": "C:\\Users\\4134331\\OneDrive - Jabil\\Documents\\Automa\u00E7aoDownloader\\BTBackend\\BTAutomation\\BTAutomation\\Service\\FileWatcherService.cs",
+              "RelativeDocumentMoniker": "BTAutomation\\Service\\FileWatcherService.cs",
+              "ToolTip": "C:\\Users\\4134331\\OneDrive - Jabil\\Documents\\Automa\u00E7aoDownloader\\BTBackend\\BTAutomation\\BTAutomation\\Service\\FileWatcherService.cs",
+              "RelativeToolTip": "BTAutomation\\Service\\FileWatcherService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T18:59:28.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CLPService.cs",
+              "DocumentMoniker": "C:\\Users\\4134331\\OneDrive - Jabil\\Documents\\Automa\u00E7aoDownloader\\BTBackend\\BTAutomation\\BTAutomation\\Service\\CLPService.cs",
+              "RelativeDocumentMoniker": "BTAutomation\\Service\\CLPService.cs",
+              "ToolTip": "C:\\Users\\4134331\\OneDrive - Jabil\\Documents\\Automa\u00E7aoDownloader\\BTBackend\\BTAutomation\\BTAutomation\\Service\\CLPService.cs",
+              "RelativeToolTip": "BTAutomation\\Service\\CLPService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T15:46:30.561Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -9,6 +9,7 @@ namespace BTAutomation.Service
         private TcpClient? _tcpClient;
         private readonly ILogger<CLPService> _logger = logger;
 
+        //string ipAdress = Environment.GetEnvironmentVariable("CLP");
         string ipAddress = "192.168.100.20";
         private ushort registerAddress = 8292; //M100
         //private string ipAddress = "127.0.0.1";

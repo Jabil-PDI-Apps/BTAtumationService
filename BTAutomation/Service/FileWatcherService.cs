@@ -11,14 +11,20 @@ namespace BTAutomation.Service
         //private readonly string _path = @"C:\Users\4134331\OneDrive - Jabil\Documents\AutomaçaoDownloader";
         private readonly Dictionary<string, DateTime> _lastProcessed = new();
         private FileSystemWatcher? _watcher;
-        CLPService _clpService;
+        private JakaService _jakaService;
+        //CLPService _clpService;
 
-       
 
-        public FileWatcherService(ILogger<FileWatcherService> logger, CLPService clpService)
+
+        //public FileWatcherService(ILogger<FileWatcherService> logger, CLPService clpService)
+        //{
+        //    _logger = logger;
+        //    _clpService = clpService;
+        //}
+        public FileWatcherService(ILogger<FileWatcherService> logger, JakaService jaka)
         {
             _logger = logger;
-            _clpService = clpService;
+            _jakaService = jaka;
         }
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
@@ -70,7 +76,7 @@ namespace BTAutomation.Service
 
             try
             {
-                await Arquivo.ProcessarArquivo(e.FullPath, _logger, _clpService);
+                await Arquivo.ProcessarArquivo(e.FullPath, _logger, _jakaService);
             }
             catch (Exception ex)
             {

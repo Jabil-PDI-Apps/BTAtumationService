@@ -8,7 +8,7 @@ namespace BTAutomation.Utils
 {
     public class Arquivo
     {
-        public static async Task ProcessarArquivo(string filePath, ILogger _logger, CLPService _clpService)
+        public static async Task ProcessarArquivo(string filePath, ILogger _logger, JakaService jaka)
         {
             string ultimaLinhaValida = "";
             //string headerCompleto = "Test Conditions, Measured Value, Lower Limit, Upper Limit, P/F, Sec, Code, Code Lsl, Code Usl, Meas Fine, Code Fine";
@@ -46,8 +46,16 @@ namespace BTAutomation.Utils
                     string valorExtraido = partes[1].Trim();
 
                     _logger.LogInformation("Valor extraído do RESULT: {valor}", valorExtraido);
-                    int statusClp = (valorExtraido == "PASS" || valorExtraido == "P") ? 1 : 0;
-                    _clpService.WriteToCLP(statusClp);
+                    if(valorExtraido == "PASS")
+                    {
+                        await jaka.Send_PASS_BT1();
+                    }
+                    else
+                    {
+                        await jaka.Send_Fail_BT1();
+                    }
+                    //int statusClp = (valorExtraido == "PASS" || valorExtraido == "P") ? 1 : 0;
+                    //_clpService.WriteToCLP(statusClp);
                 }
             }
 

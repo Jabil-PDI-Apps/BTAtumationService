@@ -20,6 +20,11 @@ namespace BTAutomation.Service
             };
 
             var resp = await SendJakaCommandAsync(payload);
+            await Task.Delay(40);
+            resp = await SendJakaCommandAsync(payload);
+            await Task.Delay(40);
+            resp = await SendJakaCommandAsync(payload);
+
             return resp;
         }
         public async Task<string> Send_Fail_BT1(CancellationToken ct = default)
@@ -33,6 +38,11 @@ namespace BTAutomation.Service
             };
 
             var resp = await SendJakaCommandAsync(payload);
+            await Task.Delay(40);
+            resp = await SendJakaCommandAsync(payload);
+            await Task.Delay(40);
+            resp = await SendJakaCommandAsync(payload);
+
             return resp;
         }
 

@@ -1,14 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\4134331\\OneDrive - Jabil\\Documents\\Automa\u00E7aoDownloader\\BTBackend\\BTAutomation\\",
+  "WorkspaceRootPath": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134331\\onedrive - jabil\\documents\\automa\u00E7aodownloader\\btbackend\\btautomation\\btautomation\\service\\filewatcherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{60CA0214-88C6-8651-7B8B-6C0F6C5892CB}|Itens de Solu\u00E7\u00E3o{60CA0214-88C6-8651-7B8B-6C0F6C5892CB}|C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{60CA0214-88C6-8651-7B8B-6C0F6C5892CB}|Itens de Solu\u00E7\u00E3o{60CA0214-88C6-8651-7B8B-6C0F6C5892CB}|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134634\\source\\jabilgithub\\btatumationservice\\btautomation\\btautomation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|solutionrelative:btautomation\\btautomation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134634\\source\\jabilgithub\\btatumationservice\\btautomation\\service\\jakaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|solutionrelative:btautomation\\service\\jakaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134634\\source\\jabilgithub\\btatumationservice\\btautomation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|solutionrelative:btautomation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134634\\source\\jabilgithub\\btatumationservice\\btautomation\\service\\clpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|solutionrelative:btautomation\\service\\clpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134634\\source\\jabilgithub\\btatumationservice\\btautomation\\utils\\arquivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|solutionrelative:btautomation\\utils\\arquivo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134634\\source\\jabilgithub\\btatumationservice\\btautomation\\utils\\linhavalida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|solutionrelative:btautomation\\utils\\linhavalida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134634\\source\\jabilgithub\\btatumationservice\\btautomation\\service\\filewatcherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|solutionrelative:btautomation\\service\\filewatcherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134331\\onedrive - jabil\\documents\\automa\u00E7aodownloader\\btbackend\\btautomation\\btautomation\\service\\clpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|solutionrelative:btautomation\\service\\clpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134634\\source\\jabilgithub\\btatumationservice\\btautomation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|solutionrelative:btautomation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134634\\source\\jabilgithub\\btatumationservice\\btautomation\\btautomation.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|solutionrelative:btautomation\\btautomation.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|c:\\users\\4134634\\source\\jabilgithub\\btatumationservice\\btautomation\\logs\\log-20260305.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{07CBF0DC-8188-D4EE-D63C-6FA259B78F2D}|BTAutomation\\BTAutomation.csproj|solutionrelative:btautomation\\logs\\log-20260305.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +54,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 17,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -79,28 +127,135 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FileWatcherService.cs",
-              "DocumentMoniker": "C:\\Users\\4134331\\OneDrive - Jabil\\Documents\\Automa\u00E7aoDownloader\\BTBackend\\BTAutomation\\BTAutomation\\Service\\FileWatcherService.cs",
-              "RelativeDocumentMoniker": "BTAutomation\\Service\\FileWatcherService.cs",
-              "ToolTip": "C:\\Users\\4134331\\OneDrive - Jabil\\Documents\\Automa\u00E7aoDownloader\\BTBackend\\BTAutomation\\BTAutomation\\Service\\FileWatcherService.cs",
-              "RelativeToolTip": "BTAutomation\\Service\\FileWatcherService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T18:59:28.144Z",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001407|",
+              "WhenOpened": "2026-04-09T20:32:51.646Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CLPService.cs",
-              "DocumentMoniker": "C:\\Users\\4134331\\OneDrive - Jabil\\Documents\\Automa\u00E7aoDownloader\\BTBackend\\BTAutomation\\BTAutomation\\Service\\CLPService.cs",
-              "RelativeDocumentMoniker": "BTAutomation\\Service\\CLPService.cs",
-              "ToolTip": "C:\\Users\\4134331\\OneDrive - Jabil\\Documents\\Automa\u00E7aoDownloader\\BTBackend\\BTAutomation\\BTAutomation\\Service\\CLPService.cs",
-              "RelativeToolTip": "BTAutomation\\Service\\CLPService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "JakaService.cs",
+              "DocumentMoniker": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Service\\JakaService.cs",
+              "RelativeDocumentMoniker": "BTAutomation\\Service\\JakaService.cs",
+              "ToolTip": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Service\\JakaService.cs",
+              "RelativeToolTip": "BTAutomation\\Service\\JakaService.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwHAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T15:46:30.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T12:08:19.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FileWatcherService.cs",
+              "DocumentMoniker": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Service\\FileWatcherService.cs",
+              "RelativeDocumentMoniker": "BTAutomation\\Service\\FileWatcherService.cs",
+              "ToolTip": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Service\\FileWatcherService.cs",
+              "RelativeToolTip": "BTAutomation\\Service\\FileWatcherService.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T18:59:28.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LinhaValida.cs",
+              "DocumentMoniker": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Utils\\LinhaValida.cs",
+              "RelativeDocumentMoniker": "BTAutomation\\Utils\\LinhaValida.cs",
+              "ToolTip": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Utils\\LinhaValida.cs",
+              "RelativeToolTip": "BTAutomation\\Utils\\LinhaValida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T14:42:16.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Arquivo.cs",
+              "DocumentMoniker": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Utils\\Arquivo.cs",
+              "RelativeDocumentMoniker": "BTAutomation\\Utils\\Arquivo.cs",
+              "ToolTip": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Utils\\Arquivo.cs",
+              "RelativeToolTip": "BTAutomation\\Utils\\Arquivo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T14:42:10.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CLPService.cs",
+              "DocumentMoniker": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Service\\CLPService.cs",
+              "RelativeDocumentMoniker": "BTAutomation\\Service\\CLPService.cs",
+              "ToolTip": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Service\\CLPService.cs",
+              "RelativeToolTip": "BTAutomation\\Service\\CLPService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAuwCgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-05T15:46:30.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Program.cs",
+              "RelativeDocumentMoniker": "BTAutomation\\Program.cs",
+              "ToolTip": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Program.cs",
+              "RelativeToolTip": "BTAutomation\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T17:35:21.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BTAutomation.csproj",
+              "DocumentMoniker": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\BTAutomation.csproj",
+              "RelativeDocumentMoniker": "BTAutomation\\BTAutomation.csproj",
+              "ToolTip": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\BTAutomation.csproj",
+              "RelativeToolTip": "BTAutomation\\BTAutomation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-09T12:56:45.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BTAutomation.http",
+              "DocumentMoniker": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\BTAutomation.http",
+              "RelativeDocumentMoniker": "BTAutomation\\BTAutomation.http",
+              "ToolTip": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\BTAutomation.http",
+              "RelativeToolTip": "BTAutomation\\BTAutomation.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-04-09T15:01:51.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\appsettings.json",
+              "RelativeDocumentMoniker": "BTAutomation\\appsettings.json",
+              "ToolTip": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\appsettings.json",
+              "RelativeToolTip": "BTAutomation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-09T15:01:53.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "log-20260305.txt",
+              "DocumentMoniker": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Logs\\log-20260305.txt",
+              "RelativeDocumentMoniker": "BTAutomation\\Logs\\log-20260305.txt",
+              "ToolTip": "C:\\Users\\4134634\\source\\JabilGithub\\BTAtumationService\\BTAutomation\\Logs\\log-20260305.txt",
+              "RelativeToolTip": "BTAutomation\\Logs\\log-20260305.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-09T14:21:38.945Z"
             }
           ]
         }

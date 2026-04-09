@@ -15,25 +15,60 @@ namespace BTAutomation.Service
             {
                 cmdName = "set_digital_output",
                 type = 4,
-                index = 15,
+                index = 23,
                 value = 1
             };
 
-            var resp = await SendJakaCommandAsync(payload);
-            return resp;
+            string lastResponse = string.Empty;
+
+            for (int attempt = 1; attempt <= 3; attempt++)
+            {
+                Console.WriteLine($"[Send_PASS_BT1] Tentativa {attempt}/3 - Enviando comando PASS (Digital Output 23 = 1)");
+
+                var resp = await SendJakaCommandAsync(payload, ct);
+                lastResponse = resp;
+
+                Console.WriteLine($"[Send_PASS_BT1] Tentativa {attempt}/3 - Resposta recebida: {resp}");
+
+                if (attempt < 3)
+                {
+                    await Task.Delay(200, ct); 
+                }
+            }
+
+            Console.WriteLine($"[Send_PASS_BT1] Finalizado após 3 envios. Última resposta: {lastResponse}");
+            return lastResponse;
         }
+
         public async Task<string> Send_Fail_BT1(CancellationToken ct = default)
         {
             var payload = new
             {
                 cmdName = "set_digital_output",
                 type = 4,
-                index = 16,
+                index = 24,
                 value = 1
             };
 
-            var resp = await SendJakaCommandAsync(payload);
-            return resp;
+            string lastResponse = string.Empty;
+
+            for (int attempt = 1; attempt <= 3; attempt++)
+            {
+                Console.WriteLine($"[Send_Fail_BT1] Tentativa {attempt}/3 - Enviando comando FAIL (Digital Output 24 = 1)");
+
+                var resp = await SendJakaCommandAsync(payload, ct);
+                lastResponse = resp;
+
+                Console.WriteLine($"[Send_Fail_BT1] Tentativa {attempt}/3 - Resposta recebida: {resp}");
+
+                if (attempt < 3)
+                {
+                    await Task.Delay(200, ct); 
+                }
+            }
+
+            Console.WriteLine($"[Send_Fail_BT1] Finalizado após 3 envios. Última resposta: {lastResponse}");
+            return lastResponse;
         }
 
         public async Task<string> SendJakaCommandAsync(object payload, CancellationToken ct = default)

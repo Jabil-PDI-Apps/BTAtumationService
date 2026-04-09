@@ -2,28 +2,32 @@ using BTAutomation.Service;
 using Serilog;
 using System.ComponentModel.Design;
 
-// Configuração do Serilog
+
+
+
+// Configuraï¿½ï¿½o do Serilog
 Log.Logger = new LoggerConfiguration()
-    .MinimumLevel.Debug() // Define o nível mínimo de log
-    .WriteTo.Console()    // Mantém o log no console para você ver agora
+    .MinimumLevel.Debug() // Define o nï¿½vel mï¿½nimo de log
+    .WriteTo.Console()    // Mantï¿½m o log no console para vocï¿½ ver agora
     .WriteTo.File("Logs/log-.txt",
         rollingInterval: RollingInterval.Day, // Cria log-20231027.txt, etc.
-        retainedFileCountLimit: 7)            // Mantém apenas os últimos 7 dias
+        retainedFileCountLimit: 7)            // Mantï¿½m apenas os ï¿½ltimos 7 dias
     .CreateLogger();
 
 try
 {
-    Log.Information("Iniciando o serviço de automação...");
+    Log.Information("Iniciando o serviï¿½o de automaï¿½ï¿½o...");
 
-    // O Host.CreateDefaultBuilder configura Logs, Injeção de Dependência 
-    // e lê o seu appsettings.json automaticamente.
+    // O Host.CreateDefaultBuilder configura Logs, Injeï¿½ï¿½o de Dependï¿½ncia 
+    // e lï¿½ o seu appsettings.json automaticamente.
     IHost host = Host.CreateDefaultBuilder(args)
         .UseWindowsService()
         .UseSerilog() 
         .ConfigureServices(services =>
         {
-            services.AddSingleton<CLPService>();
-            services.AddHostedService(sp => sp.GetRequiredService<CLPService>());
+            //services.AddSingleton<CLPService>();
+            services.AddSingleton<JakaService>();
+            //services.AddHostedService(sp => sp.GetRequiredService<CLPService>());
             services.AddHostedService<FileWatcherService>();
         })
         .Build();
@@ -32,7 +36,7 @@ try
 }
 catch (Exception ex)
 {
-    Log.Fatal(ex, "O serviço parou inesperadamente!");
+    Log.Fatal(ex, "O serviï¿½o parou inesperadamente!");
 }
 finally
 {

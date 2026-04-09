@@ -1,0 +1,238 @@
+2026-04-09 09:15:10.307 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-09 09:15:10.847 -04:00 [DBG] Hosting starting
+2026-04-09 09:15:10.859 -04:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Unable to resolve service for type 'BTAutomation.Service.JakaService' while attempting to activate 'BTAutomation.Service.FileWatcherService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateEnumerable(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+2026-04-09 09:15:11.552 -04:00 [FTL] O servi�o parou inesperadamente!
+System.InvalidOperationException: Unable to resolve service for type 'BTAutomation.Service.JakaService' while attempting to activate 'BTAutomation.Service.FileWatcherService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateEnumerable(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>g__LogAndRethrow|14_3(<>c__DisplayClass14_0&)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Program.cs:line 31
+2026-04-09 09:41:22.932 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-09 09:41:23.405 -04:00 [DBG] Hosting starting
+2026-04-09 09:41:23.411 -04:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Unable to resolve service for type 'BTAutomation.Service.JakaService' while attempting to activate 'BTAutomation.Service.FileWatcherService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateEnumerable(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+2026-04-09 09:41:23.453 -04:00 [FTL] O servi�o parou inesperadamente!
+System.InvalidOperationException: Unable to resolve service for type 'BTAutomation.Service.JakaService' while attempting to activate 'BTAutomation.Service.FileWatcherService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateEnumerable(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>g__LogAndRethrow|14_3(<>c__DisplayClass14_0&)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Program.cs:line 31
+2026-04-09 11:02:31.351 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-09 11:02:31.806 -04:00 [DBG] Hosting starting
+2026-04-09 11:02:31.814 -04:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Unable to resolve service for type 'BTAutomation.Service.JakaService' while attempting to activate 'BTAutomation.Service.FileWatcherService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateEnumerable(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+2026-04-09 11:02:31.869 -04:00 [FTL] O servi�o parou inesperadamente!
+System.InvalidOperationException: Unable to resolve service for type 'BTAutomation.Service.JakaService' while attempting to activate 'BTAutomation.Service.FileWatcherService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateEnumerable(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>g__LogAndRethrow|14_3(<>c__DisplayClass14_0&)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Program.cs:line 31
+2026-04-09 11:04:38.030 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-09 11:04:38.509 -04:00 [DBG] Hosting starting
+2026-04-09 11:04:38.520 -04:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Unable to resolve service for type 'BTAutomation.Service.JakaService' while attempting to activate 'BTAutomation.Service.FileWatcherService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateEnumerable(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+2026-04-09 11:04:38.577 -04:00 [FTL] O servi�o parou inesperadamente!
+System.InvalidOperationException: Unable to resolve service for type 'BTAutomation.Service.JakaService' while attempting to activate 'BTAutomation.Service.FileWatcherService'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, ServiceIdentifier serviceIdentifier, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateExact(ServiceDescriptor descriptor, ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateEnumerable(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceIdentifier serviceIdentifier, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>g__LogAndRethrow|14_3(<>c__DisplayClass14_0&)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Program.<Main>$(String[] args) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Program.cs:line 31
+2026-04-09 11:07:35.708 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-09 11:07:36.065 -04:00 [DBG] Hosting starting
+2026-04-09 11:07:36.092 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-09 11:07:36.097 -04:00 [INF] Hosting environment: Production
+2026-04-09 11:07:36.097 -04:00 [INF] Iniciando monitoramento em tempo real em: C:\DGS\LOGS
+2026-04-09 11:07:36.100 -04:00 [INF] Content root path: C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation
+2026-04-09 11:07:36.103 -04:00 [DBG] Hosting started
+2026-04-09 11:07:36.134 -04:00 [INF] Tentando conectar ao CLP Master em 192.168.100.20:502...
+2026-04-09 11:07:41.166 -04:00 [WRN] Não foi possível conectar. Verifique se o CLP está online.
+2026-04-09 11:07:41.168 -04:00 [INF] Aguardando 5 segundos para tentar reconectar...
+2026-04-09 11:07:46.185 -04:00 [INF] Tentando conectar ao CLP Master em 192.168.100.20:502...
+2026-04-09 11:07:51.206 -04:00 [WRN] Não foi possível conectar. Verifique se o CLP está online.
+2026-04-09 11:07:51.208 -04:00 [INF] Aguardando 5 segundos para tentar reconectar...
+2026-04-09 11:08:10.869 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-09 11:08:11.263 -04:00 [DBG] Hosting starting
+2026-04-09 11:08:36.119 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-09 11:08:36.560 -04:00 [DBG] Hosting starting
+2026-04-09 11:08:36.590 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-09 11:08:36.595 -04:00 [INF] Hosting environment: Production
+2026-04-09 11:08:36.595 -04:00 [INF] Iniciando monitoramento em tempo real em: C:\DGS\LOGS
+2026-04-09 11:08:36.599 -04:00 [INF] Content root path: C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation
+2026-04-09 11:08:36.602 -04:00 [DBG] Hosting started
+2026-04-09 11:09:56.504 -04:00 [INF] Alteração detectada no arquivo: SM-A075M_SMD DL_RDG_TOPJ20_20260106_04.csv
+2026-04-09 11:09:56.512 -04:00 [INF] Arquivo modificado commenos de 1s: SM-A075M_SMD DL_RDG_TOPJ20_20260106_04.csv
+2026-04-09 11:09:56.646 -04:00 [INF] Arquivo modificado commenos de 1s: SM-A075M_SMD DL_RDG_TOPJ20_20260106_04.csv
+2026-04-09 11:09:56.663 -04:00 [INF] Arquivo modificado commenos de 1s: SM-A075M_SMD DL_RDG_TOPJ20_20260106_04.csv
+2026-04-09 11:09:57.026 -04:00 [INF] Valor extraído do RESULT: PASS,,,,,,,,,,
+2026-04-09 11:10:18.235 -04:00 [ERR] Erro ao processar alteração no arquivo SM-A075M_SMD DL_RDG_TOPJ20_20260106_04.csv
+System.Net.Sockets.SocketException (10060): Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(ValueTask task)
+   at BTAutomation.Service.JakaService.SendJakaCommandAsync(Object payload, CancellationToken ct) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Service\JakaService.cs:line 77
+   at BTAutomation.Service.JakaService.Send_Fail_BT1(CancellationToken ct) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Service\JakaService.cs:line 59
+   at BTAutomation.Utils.Arquivo.ProcessarArquivo(String filePath, ILogger _logger, JakaService jaka) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Utils\Arquivo.cs:line 55
+   at BTAutomation.Service.FileWatcherService.OnFileChanged(Object sender, FileSystemEventArgs e) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Service\FileWatcherService.cs:line 79
+2026-04-09 11:20:36.308 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-09 11:20:36.682 -04:00 [DBG] Hosting starting
+2026-04-09 11:20:36.708 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-09 11:20:36.713 -04:00 [INF] Hosting environment: Production
+2026-04-09 11:20:36.713 -04:00 [INF] Iniciando monitoramento em tempo real em: C:\DGS\LOGS
+2026-04-09 11:20:36.715 -04:00 [INF] Content root path: C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation
+2026-04-09 11:20:36.717 -04:00 [DBG] Hosting started
+2026-04-09 11:21:25.556 -04:00 [INF] Alteração detectada no arquivo: SM-A075M_SMD DL_RDG_TOPJ20_20260106_04.csv
+2026-04-09 11:21:25.560 -04:00 [INF] Arquivo modificado commenos de 1s: SM-A075M_SMD DL_RDG_TOPJ20_20260106_04.csv
+2026-04-09 11:21:26.069 -04:00 [INF] Valor extraído do RESULT: PASS,,,,,,,,,,
+2026-04-09 12:22:00.197 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-09 12:22:00.524 -04:00 [DBG] Hosting starting
+2026-04-09 12:22:00.546 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-09 12:22:00.550 -04:00 [INF] Hosting environment: Production
+2026-04-09 12:22:00.550 -04:00 [INF] Iniciando monitoramento em tempo real em: C:\DGS\LOGS
+2026-04-09 12:22:00.552 -04:00 [INF] Content root path: C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation
+2026-04-09 12:22:00.554 -04:00 [DBG] Hosting started
+2026-04-09 12:22:17.882 -04:00 [INF] Alteração detectada no arquivo: SM-A075M_SMD DL_RDG_TOPJ20_20260106_04.csv
+2026-04-09 12:22:17.888 -04:00 [INF] Arquivo modificado commenos de 1s: SM-A075M_SMD DL_RDG_TOPJ20_20260106_04.csv
+2026-04-09 12:22:18.389 -04:00 [INF] Valor extraído do RESULT: PASS,,,,,,,,,,
+2026-04-09 12:22:39.564 -04:00 [ERR] Erro ao processar alteração no arquivo SM-A075M_SMD DL_RDG_TOPJ20_20260106_04.csv
+System.Net.Sockets.SocketException (10060): Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(ValueTask task)
+   at BTAutomation.Service.JakaService.SendJakaCommandAsync(Object payload, CancellationToken ct) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Service\JakaService.cs:line 77
+   at BTAutomation.Service.JakaService.Send_PASS_BT1(CancellationToken ct) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Service\JakaService.cs:line 28
+   at BTAutomation.Utils.Arquivo.ProcessarArquivo(String filePath, ILogger _logger, JakaService jaka) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Utils\Arquivo.cs:line 51
+   at BTAutomation.Service.FileWatcherService.OnFileChanged(Object sender, FileSystemEventArgs e) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Service\FileWatcherService.cs:line 79
+2026-04-09 16:08:02.519 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-09 16:08:02.867 -04:00 [DBG] Hosting starting
+2026-04-09 16:08:02.891 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-09 16:08:02.896 -04:00 [INF] Hosting environment: Production
+2026-04-09 16:08:02.896 -04:00 [INF] Iniciando monitoramento em tempo real em: C:\DGS\LOGS
+2026-04-09 16:08:02.897 -04:00 [INF] Content root path: C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation
+2026-04-09 16:08:02.899 -04:00 [DBG] Hosting started
+2026-04-09 16:08:23.266 -04:00 [INF] Alteração detectada no arquivo: SM-A075M_SMD DL_RDG_TOPJ20_20260106_04.csv
+2026-04-09 16:08:23.269 -04:00 [INF] Arquivo modificado commenos de 1s: SM-A075M_SMD DL_RDG_TOPJ20_20260106_04.csv
+2026-04-09 16:08:23.783 -04:00 [INF] Valor extraído do RESULT: FAIL,,,,,,,,,,
+2026-04-09 16:25:20.881 -04:00 [INF] Iniciando o serviço de automação...
+2026-04-09 16:25:21.171 -04:00 [INF] Estabelecendo conexão persistente com o robô Jaka...
+2026-04-09 16:25:42.285 -04:00 [FTL] O serviço parou inesperadamente!
+System.Net.Sockets.SocketException (10060): Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.TcpClient.CompleteConnectAsync(ValueTask task)
+   at BTAutomation.Service.JakaService.ConnectAsync(CancellationToken ct) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Service\JakaService.cs:line 39
+   at Program.<Main>$(String[] args) in C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\Program.cs:line 33

@@ -46,7 +46,7 @@ namespace BTAutomation.Utils
                     string valorExtraido = partes[1].Trim();
 
                     _logger.LogInformation("Valor extraído do RESULT: {valor}", valorExtraido);
-                    if(valorExtraido == "PASS,,,,,,,,,,")
+                    if(valorExtraido == "PASS")
                     {
                         await jaka.Send_PASS_BT1();
                     }

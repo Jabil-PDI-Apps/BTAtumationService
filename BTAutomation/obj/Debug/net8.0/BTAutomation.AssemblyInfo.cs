@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BTAutomation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5936bc032190c415c1e1615634fe0f7d87fb958")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30555f3319abb4d6a50c5c7fb25dfe49f33e9bf0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BTAutomation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BTAutomation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

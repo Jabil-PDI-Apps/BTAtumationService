@@ -161,4 +161,3 @@ C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\obj\Debug\ne
 C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\obj\Debug\net8.0\BTAutomation.pdb
 C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\obj\Debug\net8.0\BTAutomation.genruntimeconfig.cache
 C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\obj\Debug\net8.0\ref\BTAutomation.dll
-C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

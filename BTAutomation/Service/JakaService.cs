@@ -6,7 +6,7 @@ namespace BTAutomation.Service
     public class JakaService 
     {
         //private string ip = "10.56.37.91";
-        private string ip = "192.168.100.60";
+        private string ip = "192.168.100.50";
         private int port = 10001;
 
         public async Task<string> Send_PASS_BT1(CancellationToken ct = default)

@@ -2,8 +2,8 @@
 <!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
 <Project>
   <PropertyGroup>
-    <History>True|2026-03-05T16:55:11.0342084Z||;False|2026-03-05T12:44:55.1069594-04:00||;</History>
+    <History>True|2026-04-13T15:50:06.8559402Z||;True|2026-04-13T11:43:36.4948810-04:00||;True|2026-03-05T12:55:11.0342084-04:00||;False|2026-03-05T12:44:55.1069594-04:00||;</History>
     <LastFailureDetails />
-    <_PublishTargetUrl>C:\Users\4134331\OneDrive - Jabil\Documents\AutomaçaoDownloader\BTBackend\BTAutomation_publish</_PublishTargetUrl>
+    <_PublishTargetUrl>C:\Users\4134634\source\deploy\deploy_BT_FT\deploy_jig4_2</_PublishTargetUrl>
   </PropertyGroup>
 </Project>

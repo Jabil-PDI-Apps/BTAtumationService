@@ -1,6 +1,4 @@
 <Solution>
-  <Folder Name="/Itens de Solução/">
-    <File Path=".gitignore" />
-  </Folder>
+  <Folder Name="/Itens de Solução/" />
   <Project Path="BTAutomation/BTAutomation.csproj" />
 </Solution>

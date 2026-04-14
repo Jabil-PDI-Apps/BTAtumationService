@@ -1,0 +1,28 @@
+2026-04-13 11:39:31.395 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-13 11:39:32.196 -04:00 [DBG] Hosting starting
+2026-04-13 11:39:32.226 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-13 11:39:32.230 -04:00 [INF] Hosting environment: Production
+2026-04-13 11:39:32.230 -04:00 [INF] Iniciando monitoramento em tempo real em: C:\DGS\LOGS
+2026-04-13 11:39:32.233 -04:00 [INF] Content root path: C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation
+2026-04-13 11:39:32.236 -04:00 [DBG] Hosting started
+2026-04-13 11:39:49.741 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-13 11:39:50.535 -04:00 [DBG] Hosting starting
+2026-04-13 11:39:50.562 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-13 11:39:50.567 -04:00 [INF] Hosting environment: Production
+2026-04-13 11:39:50.567 -04:00 [INF] Iniciando monitoramento em tempo real em: C:\DGS\LOGS
+2026-04-13 11:39:50.572 -04:00 [INF] Content root path: C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation
+2026-04-13 11:39:50.576 -04:00 [DBG] Hosting started
+2026-04-13 11:41:03.657 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-13 11:41:04.335 -04:00 [DBG] Hosting starting
+2026-04-13 11:41:04.368 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-13 11:41:04.371 -04:00 [INF] Hosting environment: Production
+2026-04-13 11:41:04.371 -04:00 [INF] Iniciando monitoramento em tempo real em: C:\DGS\LOGS
+2026-04-13 11:41:04.375 -04:00 [INF] Content root path: C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation
+2026-04-13 11:41:04.378 -04:00 [DBG] Hosting started
+2026-04-13 11:47:13.244 -04:00 [INF] Iniciando o servi�o de automa��o...
+2026-04-13 11:47:14.107 -04:00 [DBG] Hosting starting
+2026-04-13 11:47:14.149 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-13 11:47:14.155 -04:00 [INF] Hosting environment: Production
+2026-04-13 11:47:14.155 -04:00 [INF] Iniciando monitoramento em tempo real em: C:\DGS\LOGS
+2026-04-13 11:47:14.164 -04:00 [INF] Content root path: C:\Users\4134634\source\JabilGithub\BTAtumationService\BTAutomation
+2026-04-13 11:47:14.167 -04:00 [DBG] Hosting started

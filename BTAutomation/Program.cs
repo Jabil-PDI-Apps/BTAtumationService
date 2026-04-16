@@ -22,9 +22,10 @@ try
         .UseSerilog() 
         .ConfigureServices(services =>
         {
-            services.AddSingleton<CLPService>();
-            services.AddHostedService(sp => sp.GetRequiredService<CLPService>());
+            //services.AddSingleton<CLPService>();
+            //services.AddHostedService(sp => sp.GetRequiredService<CLPService>());
             services.AddHostedService<FileWatcherService>();
+            services.AddTransient<JakaService>();
         })
         .Build();
 
